@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+body{
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	color: hsl(0, 36%, 70%);
+	font-size: 16px;
+}
+
+.container{
+	width: 95%;
+	margin: auto;
+}
+
+p{
+	line-height: 1.5em;
+}
+
+.image-container img{
+	width: 100%;
+}
+
+.image-container{
+	margin-top: 10vh;
+}
+
+.logo{
+	width: 25%;
+	position: absolute;
+	top: 4vh;
+	left: 15%;
+}
+
+.content{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.content h1{
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 1em;
+	letter-spacing: 0.5em;
+}
+
+.content h1 span{
+	color: hsl(0, 6%, 24%);
+	font-weight: 600;
+}
+
+a.arrow-div{
+	padding: .8em 1.75em;
+	background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+	border-radius: 2em;
+	margin-left: 1em;
+	cursor: pointer;
+	box-shadow: -5px 5px 20px -10px darkred;
+}
+
+a.arrow-div:hover{
+	background: #fdd5d5; 
+}
+
+.icon-error{
+    margin-top: 0.8em;
+    visibility: hidden;
+}
+
+.span-input input{
+	padding: 0.7em;
+	width: 70vw;
+	border-radius: 1.5rem;
+	border-color: hsl(0, 36%, 70%);
+	font-size: 18px;
+	border-width: 1px;
+}
+.span-input input:focus{
+	outline: none;
+	border-color: hsl(0, 93%, 68%);
+	border-width: 2px;
+}
+
+.input-features{
+	display: inline-flex;
+	flex-direction: row-reverse;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.error-message{
+	color: hsl(0, 93%, 68%);
+	font-weight: bold;
+	text-align: left;
+	padding-left: 12%;
+	margin-bottom: 5vh;
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+  
+
+@media (min-width: 700px){
+	.container{
+		width: 100%;
+		display: flex;
+		flex-direction: row-reverse;
+		height: 100vh;
+	}
+	.image-container{
+		margin-top: 0;
+		padding: 22vw;
+		background-image: url('images/hero-desktop.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+	
+	}
+	.image-container img{
+		width: 0;
+	}	
+	.flex-left{
+		width: 50vw;
+	}
+	.content{
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 20%;
+		text-align: inherit;
+	}
+	.content h1{
+		font-size: 3em;
+	}
+	.span-input input{
+		margin-top: 2em;
+		width: 90%;
+	}
+	.logo{
+		position: relative;
+	}
+	.error-message{
+		padding-left: 18%;
+	}
+}
