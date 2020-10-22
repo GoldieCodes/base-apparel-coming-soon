@@ -53,7 +53,7 @@ p{
 button.arrow-submit{
 	padding: .8em 1.75em;
 	background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
-	border-collapse: collapse;
+	border: .5px solid transparent;
         border-radius: 2em;
 	margin-left: 1em;
 	cursor: pointer;
@@ -65,7 +65,7 @@ button.arrow-submit:hover{
 }
 
 button.arrow-submit:active{
-    transform: translateY(-3px);
+    transform: translateY(4px);
 }
 
 .icon-error{
