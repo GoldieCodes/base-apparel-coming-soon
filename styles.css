@@ -51,17 +51,17 @@ p{
 }
 
 button.arrow-submit{
-	padding: .8em 2em;
+	padding: .87em 2em;
 	background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
 	border: .5px solid transparent;
         border-radius: 2em;
 	margin-left: 1em;
 	cursor: pointer;
-	box-shadow: -5px 5px 20px -10px darkred;
 }
 
 button.arrow-submit:hover{
-	background: #fdd5d5; 
+	background: #fdd5d5;
+	box-shadow: -5px 5px 20px -10px darkred;
 }
 
 button.arrow-submit:active{
@@ -77,7 +77,6 @@ button.arrow-submit:active{
 	padding: 0.7em;
 	width: 70vw;
 	border-radius: 1.5rem;
-	border-color: hsl(0, 36%, 70%);
 	font-size: 18px;
 	border-width: .5px;
 }
@@ -91,7 +90,7 @@ button.arrow-submit:active{
 	display: inline-flex;
 	flex-direction: row-reverse;
 	position: absolute;
-	bottom: 1px;
+	bottom: 0;
 	right: 0;
 }
 
