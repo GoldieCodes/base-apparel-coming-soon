@@ -78,7 +78,8 @@ button.arrow-submit:active{
 	width: 70vw;
 	border-radius: 1.5rem;
 	font-size: 18px;
-	border-width: 0.5px;
+	border-width: .5px;
+	border-color: hsl(0, 36%, 70%);
 }
 .span-input input:focus{
 	outline: none;
@@ -146,7 +147,7 @@ button.arrow-submit:active{
 		width: 90%;
 	}
         button.arrow-submit{
-                padding: .8em 2.7em;
+                padding: .87em 2.7em;
         }
 	.logo{
 		position: relative;
