@@ -78,7 +78,7 @@ button.arrow-submit:active{
 	width: 70vw;
 	border-radius: 1.5rem;
 	font-size: 18px;
-	border-width: .5px;
+	border-width: 0.5px;
 }
 .span-input input:focus{
 	outline: none;
