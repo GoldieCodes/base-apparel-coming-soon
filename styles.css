@@ -51,7 +51,7 @@ p{
 }
 
 button.arrow-submit{
-	padding: .8em 1.75em;
+	padding: .8em 1.9em;
 	background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
 	border: .5px solid transparent;
         border-radius: 2em;
@@ -147,7 +147,7 @@ button.arrow-submit:active{
 		width: 90%;
 	}
         button.arrow-submit{
-                padding: 1.1em 1.75em;
+                padding: 1.1em 1.9em;
         }
 	.logo{
 		position: relative;
