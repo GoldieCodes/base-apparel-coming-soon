@@ -59,7 +59,9 @@ button.arrow-submit{
 	cursor: pointer;
 }
 
-button.arrow-submit:hover{
+button.arrow-submit:hover,
+button.arrow-submit:focus{
+	outline: none;
 	background: #fdd5d5;
 	box-shadow: -5px 5px 20px -10px darkred;
 }
