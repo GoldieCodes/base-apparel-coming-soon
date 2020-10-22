@@ -50,7 +50,7 @@ p{
 	font-weight: 600;
 }
 
-a.arrow-div{
+button.arrow-submit{
 	padding: .8em 1.75em;
 	background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
 	border-radius: 2em;
@@ -59,8 +59,12 @@ a.arrow-div{
 	box-shadow: -5px 5px 20px -10px darkred;
 }
 
-a.arrow-div:hover{
+button.arrow-submit:hover{
 	background: #fdd5d5; 
+}
+
+button.arrow-submit:active{
+    transform: translateY(-3px);
 }
 
 .icon-error{
@@ -141,6 +145,9 @@ a.arrow-div:hover{
 		margin-top: 2em;
 		width: 90%;
 	}
+        button.arrow-submit{
+                padding: 1.1em 1.75em;
+        }
 	.logo{
 		position: relative;
 	}
