@@ -53,7 +53,8 @@ p{
 button.arrow-submit{
 	padding: .8em 1.75em;
 	background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
-	border-radius: 2em;
+	border-collapse: collapse;
+        border-radius: 2em;
 	margin-left: 1em;
 	cursor: pointer;
 	box-shadow: -5px 5px 20px -10px darkred;
