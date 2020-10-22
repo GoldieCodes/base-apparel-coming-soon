@@ -1,7 +1,7 @@
 /* This program checks an email input field and ensures 
 	that the input matches a valid email address*/
 	
-const submitButton = document.querySelector('.arrow-div');
+const submitButton = document.querySelector('.arrow-submit');
 	
 const alertMessage = document.querySelector('.error-message');
 
