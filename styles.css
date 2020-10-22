@@ -67,7 +67,7 @@ button.arrow-submit:focus{
 }
 
 button.arrow-submit:active{
-    transform: translateY(4px);
+    transform: translateY(2.5px);
 }
 
 .icon-error{
