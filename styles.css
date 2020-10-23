@@ -78,15 +78,14 @@ button.arrow-submit:active{
 .span-input input{
 	padding: 0.7em;
 	width: 70vw;
+	border: .5px solid lavender;
 	border-radius: 1.5rem;
 	font-size: 18px;
-	border-width: .5px;
-	border-color: hsl(0, 36%, 70%);
 }
 .span-input input:focus{
 	outline: none;
 	border-color: hsl(0, 93%, 68%);
-	border-width: 2px;
+	border-width: 1px;
 }
 
 .input-features{
