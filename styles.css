@@ -25,7 +25,7 @@ p{
 }
 
 .logo{
-	width: 25%;
+	width: 22%;
 	position: absolute;
 	top: 4vh;
 	left: 15%;
@@ -119,6 +119,7 @@ button.arrow-submit:active{
 		display: flex;
 		flex-direction: row-reverse;
 		height: 100vh;
+		background-size: cover;
 	}
 	.image-container{
 		margin-top: 0;
@@ -136,8 +137,7 @@ button.arrow-submit:active{
 	}
 	.content{
 		width: 70%;
-		margin: 0 auto;
-		margin-top: 20%;
+		margin: 32% auto 0;
 		text-align: inherit;
 	}
 	.content h1{
